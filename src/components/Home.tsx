@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
     return <div className="hello" onClick={() => console.log('alouuu')}>
-        <Link to={'/home'}>Home</Link>
+        <Link to={'/'}>root</Link>
+
     </div>;
 };
 
-export default App;
+export default Home;
